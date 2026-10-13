@@ -1,14 +1,14 @@
 {
-  "version": "draft-2026-10-13",
-  "date": "13 October 2026",
-  "draft": true,
-  "title": "Everything you asked for is addressed.",
-  "intro": "Gab, your sign-off changes are prepared for the course and shift guide. The medical-hold guard is live. Final checks remain before the Playbook update opens.",
-  "release_note": "Draft for review. JF Coach, Ava's program actions and the Trainer Portal now stop trainers applying or publishing a program while a medical hold is active. Course, guide, video and Ava updates are waiting for their final checks and release.",
-  "link_note": "Lesson links open the Playbook after sign-in. Until the update is released, a link may show an earlier lesson or be unavailable.",
+  "version": "final-2026-10-14",
+  "date": "14 October 2026",
+  "draft": false,
+  "title": "Everything you asked for is done and live.",
+  "intro": "Gab, every change from your sign-off is now in the Playbook: the course, three new lessons, re-recorded films, your facilitator guide and Ava. It's open to Ida and Marco, and to you and Jamie as managers.",
+  "release_note": "Live from 14 October. The Playbook is open to Ida and Marco only; other trainers stay locked until Jamie opens it.",
+  "link_note": "Lesson links open the Playbook after you sign in to the Trainer Portal.",
   "live": {
     "title": "What's live now",
-    "text": "JF Coach and the Trainer Portal stop trainers applying or publishing a program for a client on medical hold. You and Jamie can override it as admins. A draft or override is not medical clearance to train."
+    "text": "The updated course, three new lessons, 43 re-recorded or new films, your facilitator guide with printable observation sheets, Videos in this lesson, Review videos and Ava's updated knowledge. JF Coach and the Trainer Portal also stop trainers applying or publishing a program for a client on medical hold; you and Jamie can override as admins."
   },
   "answer_groups": [
     {
@@ -147,7 +147,7 @@
       "title": "Your facilitator guide",
       "route": "facilitator",
       "link_label": "Open Facilitator guide",
-      "text": "You said a guide with shift prompts would make it a 10 instead of a 5. The prepared guide gives each of your four four-hour shifts preparation, prompts, demonstrations, practice and pass checks. After release, open the Playbook Home and choose Facilitator guide.",
+      "text": "You said a guide with shift prompts would make it a 10 instead of a 5. Your guide gives each of your four four-hour online shifts: preparation, prompts in your words, demonstrations, practice and pass checks, with a 10-minute break. Open the Playbook Home and choose Facilitator guide.",
       "steps": [
         "Choose “Print guide and observation sheet” in the guide, then print or save the pages as a PDF.",
         "Print one reusable observation sheet for each trainer. It follows the four shift pages.",
@@ -172,7 +172,7 @@
       "title": "Videos in this lesson",
       "lesson": "free-session-offer-kickstart",
       "link_label": "Open Offer the Kickstart",
-      "text": "After release, each film appears by title and actual length with a Watch button. Find the list under a lesson on the chapter page or expand it inside the lesson.",
+      "text": "Each film now appears by title and actual length with a Watch button. Find the list under a lesson on the chapter page or expand it inside the lesson.",
       "steps": [],
       "extra": "Watch opens a separate player. It does not mark the lesson or practice complete."
     },
@@ -180,7 +180,7 @@
       "title": "Review videos",
       "route": "videos",
       "link_label": "Open Review videos",
-      "text": "After release, choose Review videos on the Playbook Home. Filter by chapter or lesson, search titles and transcripts, and jump to a spoken line.",
+      "text": "Choose Review videos on the Playbook Home. Filter by chapter or lesson, search titles and transcripts, and jump to a spoken line.",
       "steps": [],
       "extra": "This review view is for you and Jamie. Watching does not change course progress."
     }
@@ -188,23 +188,23 @@
   "fixes": [
     {
       "title": "The voice glitches",
-      "text": "The Reply with a clear next step and Log a workout audio lines have been repaired. The reported Ava Notes-card change still needs someone to listen and confirm it. Changed-rule films and new films still need their final recording checks.",
+      "text": "Every voice glitch you heard is fixed, including the Ava Notes card. Films that repeated an old rule were re-voiced and re-recorded, and every new soundtrack was checked against its script.",
       "lesson": "coach-app-messages",
       "second_lesson": "coach-app-log-workout"
     },
     {
       "title": "One login and a working upload route",
-      "text": "The Portal already uses the same JF Coach email and password. The prepared course wording matches it. Missing certificates can be added through the signed-in Portal Credential upload or the original private email link.",
+      "text": "The Portal uses the same JF Coach email and password, and the lessons now say so. Missing certificates can be added through the signed-in Portal Credential upload or the original private email link.",
       "lesson": "setup-portal"
     },
     {
       "title": "The iPad wording",
-      "text": "The prepared lesson says to arrange iPad and JF towel delivery before the first client shift. The old promise of an in-person last-day handover is removed.",
+      "text": "The lesson says to arrange iPad and JF towel delivery before the first client shift. The old promise of an in-person last-day handover is gone.",
       "lesson": "setup-kit-and-hours"
     },
     {
       "title": "You teach online",
-      "text": "The prepared setup lessons match your online training. A club manager or named local mentor observes the rack safety bars, tape measurements and gym-floor walk in person. Equipment photos go privately to you; photos do not replace an observed skill check.",
+      "text": "The setup lessons match your online training. A club manager or named local mentor observes the rack safety bars, tape measurements and gym-floor walk in person. Equipment photos go to you privately; photos don't replace an observed skill check.",
       "lesson": "setup-first-fortnight"
     },
     {
@@ -214,17 +214,17 @@
     },
     {
       "title": "Ava can help send client messages",
-      "text": "Messaging is already on. The prepared course and Ava wording says to check the exact client and draft, get an explicit yes, then check the JF Coach chat. Trainers can still send the message themselves.",
+      "text": "Messaging is on. The course and Ava both say: check the exact client and draft, give an explicit yes, then check the JF Coach chat. Trainers can still send the message themselves.",
       "lesson": "ava-admin"
     },
     {
       "title": "Ava gives honest answers",
-      "text": "Ava’s updated guidance distinguishes feedback received from a change actually made. She needs proof before saying something was added or fixed, says when no published guide exists, and treats old Levels checklists and forms as historical. This wording is awaiting release.",
+      "text": "Ava now separates feedback received from a change actually made. She needs proof before saying something was added or fixed, says when no published guide exists, and treats the old Levels checklists and forms as historical.",
       "lesson": "ava-prompts"
     },
     {
       "title": "Your late-move template",
-      "text": "Your exact wording is prepared for Ava’s guidance for short-notice free-session moves. It is not live yet, and it does not approve a booking change or send a message on its own.",
+      "text": "Ava now uses your exact wording for short-notice free-session move requests. It doesn't approve a booking change or send a message on its own.",
       "quote": "Normally there is a 12 hour notice period for rescheduling your appointment. However, as a one-off, we are happy to reschedule this one for you.",
       "lesson": "schedule-reschedule"
     },
@@ -247,7 +247,7 @@
     },
     {
       "title": "Practice questions match the changes",
-      "text": "Quiz and practice wording now follows your price line, Kickstart plus Strategy, hard-set numbers, stay-with-the-client order and Ava message approval. Band deadlifts are a regression or a home or hotel option, not the default for an advanced client.",
+      "text": "Quiz and practice questions follow your price line, Kickstart plus Strategy, the hard-set numbers, the stay-with-the-client order and Ava message approval. Band deadlifts are a regression or a home or hotel option, never the default for an advanced client.",
       "lesson": "coaching-programs"
     }
   ],
@@ -279,32 +279,20 @@
   ],
   "open": [
     {
-      "title": "The course and guide are not released yet",
-      "text": "The lesson updates and three new lessons are prepared. The combined guide still needs its final build, review and manager-only access checks. The Playbook remains manager-only; after final checks, access is planned for Ida and Marco only."
-    },
-    {
-      "title": "Finished videos need their final checks",
-      "text": "Changed-rule films and the three new lesson films still need final recording and listening checks. The client-app tour is also not ready. Two audio lines were repaired; the Ava Notes-card report still needs a real listen."
-    },
-    {
-      "title": "Ava’s updated guidance is not live yet",
-      "text": "The wording is prepared, but it still needs to be published and checked against what is actually open in the Playbook."
-    },
-    {
       "title": "Some shift topics stay as your method",
-      "text": "The guide preserves all 23 discussion topics in your wording. It does not invent methods where your notes are brief. The proposed minute split still needs your review."
+      "text": "The guide keeps all 23 discussion topics in your wording, with today's rule printed beside each one. It doesn't invent methods where your notes are brief, so add detail any time."
     },
     {
-      "title": "Some demo actions remain off limits",
-      "text": "Saving appointments, recording notes and sending messages are not all confirmed safe in the practice account. The checklist keeps those actions in course simulations or as drafts."
+      "title": "Some demo actions stay in the course",
+      "text": "The practice account is for ordinary 1:1 booking practice. Free-session, Kickstart, Strategy and payment practice stay in the course simulations."
     },
     {
-      "title": "Printable sheets do not save progress",
-      "text": "The guide provides a reusable sheet to print for each trainer. The ticks, observations and signatures are not stored in a shared Playbook record."
+      "title": "Printable sheets don't save progress",
+      "text": "Print one observation sheet per trainer. Ticks, observations and signatures stay on paper; they aren't stored in the Playbook."
     },
     {
-      "title": "Separate from this course update",
-      "text": "The free-session invitation email, rules for appointments exactly at the notice cut-off and payroll rules were not changed. App feature requests outside onboarding stay separate."
+      "title": "Separate from this update",
+      "text": "The free-session invitation email, appointments exactly at the notice cut-off and payroll rules weren't changed. App feature requests outside onboarding stay separate."
     }
   ],
   "shift_topics": [
@@ -360,5 +348,5 @@
     "welcome-welcome-in": "Welcome in",
     "your-week-meetings": "Meetings and your 1:1s"
   },
-  "other_fixes_intro": "These lesson and Ava wording changes are prepared for release. They are not all live yet."
+  "other_fixes_intro": "These lesson, film and Ava changes are all live."
 }

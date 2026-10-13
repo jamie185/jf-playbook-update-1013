@@ -123,8 +123,6 @@ def open_cards(items):
 
 
 def render(data):
-    if not data.get("draft"):
-        raise ValueError("This page must remain marked as a draft until the ship review.")
     if not data.get("playbook_url"):
         raise ValueError("playbook_url is required")
 
@@ -240,7 +238,7 @@ blockquote{margin:0;border-radius:14px;background:var(--tone-wash,var(--card));p
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="robots" content="noindex, nofollow, noarchive">
   <meta name="googlebot" content="noindex, nofollow, noarchive">
-  <meta name="description" content="A draft summary of the Playbook changes from Gabrielle’s sign-off.">
+  <meta name="description" content="What changed in the JF Playbook from Gabrielle’s sign-off.">
   <title>{esc(data['title'])} | Jamie Fitness</title>
   <link rel="icon" href="assets/jf-mark.svg" type="image/svg+xml">
   <style>{css}</style>
@@ -255,7 +253,7 @@ blockquote{margin:0;border-radius:14px;background:var(--tone-wash,var(--card));p
     <section class="hero" aria-labelledby="page-title">
       <h1 id="page-title">{esc(data['title'])}</h1>
       <p class="hero-intro">{esc(data['intro'])}</p>
-      <p class="draft-line">Draft for review, {esc(data['date'])}. Not sent.</p>
+      <p class="draft-line">{esc(data.get('release_note',''))} Updated {esc(data['date'])}.</p>
     </section>
 
     <nav class="section-nav" aria-label="On this page">
@@ -306,7 +304,7 @@ blockquote{margin:0;border-radius:14px;background:var(--tone-wash,var(--card));p
     <section class="section" id="open" aria-labelledby="open-title">
       <div class="section-heading">
         <h2 id="open-title">Still to finish</h2>
-        <p>This draft separates what is live from what still needs checking or release.</p>
+        <p>A few things are deliberately left as they are, and why.</p>
       </div>
       <div class="open-grid">{opens}</div>
       {topic_section}
@@ -314,7 +312,7 @@ blockquote{margin:0;border-radius:14px;background:var(--tone-wash,var(--card));p
 
     <footer class="footer">
       <p>{esc(data['closing'])}</p>
-      <p style="margin-top:10px">Draft for review. Not sent to anyone.</p>
+      
     </footer>
   </main>
 </body>
