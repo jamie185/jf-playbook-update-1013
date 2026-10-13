@@ -1,0 +1,364 @@
+{
+  "version": "draft-2026-10-13",
+  "date": "13 October 2026",
+  "draft": true,
+  "title": "Everything you asked for is addressed.",
+  "intro": "Gab, your sign-off changes are prepared for the course and shift guide. The medical-hold guard is live. Final checks remain before the Playbook update opens.",
+  "release_note": "Draft for review. JF Coach, Ava's program actions and the Trainer Portal now stop trainers applying or publishing a program while a medical hold is active. Course, guide, video and Ava updates are waiting for their final checks and release.",
+  "link_note": "Lesson links open the Playbook after sign-in. Until the update is released, a link may show an earlier lesson or be unavailable.",
+  "live": {
+    "title": "What's live now",
+    "text": "JF Coach and the Trainer Portal stop trainers applying or publishing a program for a client on medical hold. You and Jamie can override it as admins. A draft or override is not medical clearance to train."
+  },
+  "answer_groups": [
+    {
+      "title": "Selling and booking",
+      "tone": "orange",
+      "rows": [
+        {
+          "title": "Your price line is back",
+          "said": "“This week it is 99 down from 149.”",
+          "changed": "The script now uses the exact amount you asked for. The old last-intake urgency is gone; the client chooses their start week.",
+          "lesson": "free-session-offer-kickstart",
+          "quote": "This week it's $99.99, down from $149."
+        },
+        {
+          "title": "High intent means both",
+          "said": "“High intent: sell the Kickstart and book a strategy session.”",
+          "changed": "Offer the Kickstart and, with the client’s agreement, book your 45-minute Strategy Session. You discuss ongoing prices. Discovery calls stay 15 minutes.",
+          "lesson": "free-session-practice-sheet",
+          "quote": "Sell the Kickstart and book Strategy with their agreement."
+        },
+        {
+          "title": "A hard no stays a no",
+          "said": "“If it’s a hard no, don’t book a call. Add JF Notes.”",
+          "changed": "That is now the course guidance. If they are interested but unsure, offer your call and book it only with their agreement.",
+          "lesson": "selling-cost-and-thinking",
+          "quote": "If it's a hard no, don't book a call. Add JF Notes."
+        },
+        {
+          "title": "One current script to practise",
+          "said": "“A single current script practice sheet.” Add to course.",
+          "changed": "A new lesson brings the conversation, offer, five stages, booking, payment and outcome into one rehearsal.",
+          "lesson": "free-session-practice-sheet",
+          "quote": "This week it's $99.99, down from $149."
+        },
+        {
+          "title": "Two choices, with the reason",
+          "said": "“Two-choice scheduling and routine explanation.” Add to course.",
+          "changed": "Offer two workable times and explain how a routine helps. Different Kickstart session times are fine within the chosen start week.",
+          "lesson": "schedule-book-session",
+          "quote": "Offer two workable times and explain why a routine helps."
+        },
+        {
+          "title": "Your five-stage method is taught and rehearsed",
+          "said": "“Identify → Empathise → Isolate → Overcome → Close.”",
+          "changed": "The course teaches the five stages and your shift guide keeps the rehearsal. Start at full price; offer a discount only after a genuine concern.",
+          "lesson": "selling-cost-and-thinking",
+          "quote": "Identify → Empathise → Isolate → Overcome → Close."
+        }
+      ]
+    },
+    {
+      "title": "Coaching and the client’s first weeks",
+      "tone": "green",
+      "rows": [
+        {
+          "title": "Your weekly hard-set numbers",
+          "said": "“Beginners 10–15; others 8–12.”",
+          "changed": "Per muscle each week, counting PT and solo training together. A compound set counts for its main muscles. These are adaptable defaults for recovery and ability.",
+          "lesson": "coaching-programs",
+          "quote": "Beginners: 10–15 hard sets per muscle each week. Others: 8–12."
+        },
+        {
+          "title": "Compound advice has your limit",
+          "said": "“Only for intermediate to advanced after assessment in the free session.”",
+          "changed": "The 5–10 reps and 2–3 minutes rest apply only to assessed intermediate or advanced clients. Beginner and isolation guidance stay as they were. The house effort guide still carries your name: leave 3–4 good reps for beginners and 1–3 for others.",
+          "lesson": "coaching-programs",
+          "quote": "For assessed intermediate or advanced clients: compounds, 5–10 reps, 2–3 minutes rest."
+        },
+        {
+          "title": "Week one starts with app confidence",
+          "said": "“App set up / demo, tracking meals.” Make sure they know the exercises and agree when they’ll do their next solo workout.",
+          "changed": "The new four-week lesson starts with familiar, safe exercises and agreeing when to do the next workout in Training. Week two covers nutrition and steps, week three independent training, and week four habits. Kickstart remains three sessions over 21 days.",
+          "lesson": "coaching-client-onboarding",
+          "quote": "Find the next solo workout in Training and agree when they’ll do it."
+        },
+        {
+          "title": "Your food-support ladder",
+          "said": "“Meal guide → meal tracking → diary → scan.” Step down if there is resistance.",
+          "changed": "The course and shifts use your order when someone is resistant. Scan means the JF Coach photo food scan. Trainers check access without promising a price or inclusion.",
+          "lesson": "coaching-teach-app",
+          "quote": "Meal guide → meal tracking → diary → scan."
+        },
+        {
+          "title": "Editing a workout, with a fresh check",
+          "said": "“Workout editing details.” Add to course.",
+          "changed": "The new lesson shows how to edit an existing workout, review and save it, then leave and reopen it to check. It applies from the next session; completed history stays as it was.",
+          "lesson": "coaching-edit-existing-workout",
+          "quote": "Check the saved workout again before you leave."
+        },
+        {
+          "title": "Advanced demos, warm-up sets and aids",
+          "said": "“Advanced demonstrations, warm-up-set progression and training aids.” Add to course.",
+          "changed": "The course adds safe demonstrations, gradual warm-up practice and familiar aids suited to the client. It does not invent a loading formula or a fixed aid list.",
+          "lesson": "coaching-technique-demos",
+          "quote": "Check comfort and technique at each step."
+        }
+      ]
+    },
+    {
+      "title": "Safety and your training shifts",
+      "tone": "blue",
+      "rows": [
+        {
+          "title": "Stay with the client is prominent",
+          "said": "“Stay with the client must be highlighted.” “Keep both.”",
+          "changed": "Incident lessons now lead with staying with the client. Make the area safe, call 000 in an emergency, call you once help is underway, then keep both the call and JF Notes and file the same-day incident report.",
+          "lesson": "standards-safety-first",
+          "quote": "Stay with the client."
+        },
+        {
+          "title": "Your usual 1:1 guide is included",
+          "said": "“Build-up: 2x per week. Under 15 hours: 1x per week. 15+ hours: 1x per fortnight. 25+ hours: 1x coffee per month.”",
+          "changed": "The course and shift guide include your usual bands. Hours means weekly client hours. You still set each trainer’s actual cadence.",
+          "lesson": "your-week-meetings",
+          "quote": "Build-up: 2x per week. Under 15 hours: 1x per week. 15+ hours: 1x per fortnight. 25+ hours: 1x coffee per month."
+        },
+        {
+          "title": "Your shifts keep your discussion topics",
+          "said": "“Keep for my shifts (not in course).”",
+          "changed": "All 23 topics stay in your shift guide, using your source wording. Where your method needs more detail, the guide leaves it for you to teach.",
+          "lesson": "welcome-welcome-in",
+          "quote": "Keep for my shifts, not in the course."
+        },
+        {
+          "title": "The outdated items are dropped",
+          "said": "“Drop the old price and intake urgency, and ClickUp.”",
+          "changed": "ClickUp and the old last-intake urgency are removed. The $149 comparison stays in the script because Jamie confirmed it was the genuine former price.",
+          "lesson": "free-session-practice-sheet",
+          "quote": "This week it's $99.99, down from $149."
+        }
+      ]
+    }
+  ],
+  "new_tools": [
+    {
+      "title": "Your facilitator guide",
+      "route": "facilitator",
+      "link_label": "Open Facilitator guide",
+      "text": "You said a guide with shift prompts would make it a 10 instead of a 5. The prepared guide gives each of your four four-hour shifts preparation, prompts, demonstrations, practice and pass checks. After release, open the Playbook Home and choose Facilitator guide.",
+      "steps": [
+        "Choose “Print guide and observation sheet” in the guide, then print or save the pages as a PDF.",
+        "Print one reusable observation sheet for each trainer. It follows the four shift pages.",
+        "Lesson completion, setup, shift attendance, observed skills and final practical sign-off stay as separate records. Your printed ticks are not saved in the Playbook."
+      ],
+      "extra": "Confidence checks at shifts two and four carry into the first 1:1. Preparation follows whole chapters in the existing course order."
+    },
+    {
+      "title": "The demo checklist",
+      "route": "facilitator",
+      "link_label": "Find the checklist in the guide",
+      "text": "The guide includes a short before-you-start checklist for the practice account, view, permitted action and reset plan.",
+      "steps": [
+        "Use course simulations for free-session, Kickstart, Strategy and payment practice.",
+        "The staff demo is for ordinary 1:1 booking practice. Check the allowed action and reset limit before saving anything.",
+        "Keep notes as drafts until the note route is confirmed safe."
+      ],
+      "extra": "A demo label does not make every action safe.",
+      "aria_label": "Open Facilitator guide in the Playbook"
+    },
+    {
+      "title": "Videos in this lesson",
+      "lesson": "free-session-offer-kickstart",
+      "link_label": "Open Offer the Kickstart",
+      "text": "After release, each film appears by title and actual length with a Watch button. Find the list under a lesson on the chapter page or expand it inside the lesson.",
+      "steps": [],
+      "extra": "Watch opens a separate player. It does not mark the lesson or practice complete."
+    },
+    {
+      "title": "Review videos",
+      "route": "videos",
+      "link_label": "Open Review videos",
+      "text": "After release, choose Review videos on the Playbook Home. Filter by chapter or lesson, search titles and transcripts, and jump to a spoken line.",
+      "steps": [],
+      "extra": "This review view is for you and Jamie. Watching does not change course progress."
+    }
+  ],
+  "fixes": [
+    {
+      "title": "The voice glitches",
+      "text": "The Reply with a clear next step and Log a workout audio lines have been repaired. The reported Ava Notes-card change still needs someone to listen and confirm it. Changed-rule films and new films still need their final recording checks.",
+      "lesson": "coach-app-messages",
+      "second_lesson": "coach-app-log-workout"
+    },
+    {
+      "title": "One login and a working upload route",
+      "text": "The Portal already uses the same JF Coach email and password. The prepared course wording matches it. Missing certificates can be added through the signed-in Portal Credential upload or the original private email link.",
+      "lesson": "setup-portal"
+    },
+    {
+      "title": "The iPad wording",
+      "text": "The prepared lesson says to arrange iPad and JF towel delivery before the first client shift. The old promise of an in-person last-day handover is removed.",
+      "lesson": "setup-kit-and-hours"
+    },
+    {
+      "title": "You teach online",
+      "text": "The prepared setup lessons match your online training. A club manager or named local mentor observes the rack safety bars, tape measurements and gym-floor walk in person. Equipment photos go privately to you; photos do not replace an observed skill check.",
+      "lesson": "setup-first-fortnight"
+    },
+    {
+      "title": "The held-client guard is live",
+      "text": "JF Coach, Ava’s program actions and both Portal routes stop trainer apply, publish and live program changes while a medical hold is active. You and Jamie can override as admins. An override is not medical clearance to train.",
+      "lesson": "standards-safety-first"
+    },
+    {
+      "title": "Ava can help send client messages",
+      "text": "Messaging is already on. The prepared course and Ava wording says to check the exact client and draft, get an explicit yes, then check the JF Coach chat. Trainers can still send the message themselves.",
+      "lesson": "ava-admin"
+    },
+    {
+      "title": "Ava gives honest answers",
+      "text": "Ava’s updated guidance distinguishes feedback received from a change actually made. She needs proof before saying something was added or fixed, says when no published guide exists, and treats old Levels checklists and forms as historical. This wording is awaiting release.",
+      "lesson": "ava-prompts"
+    },
+    {
+      "title": "Your late-move template",
+      "text": "Your exact wording is prepared for Ava’s guidance for short-notice free-session moves. It is not live yet, and it does not approve a booking change or send a message on its own.",
+      "quote": "Normally there is a 12 hour notice period for rescheduling your appointment. However, as a one-off, we are happy to reschedule this one for you.",
+      "lesson": "schedule-reschedule"
+    },
+    {
+      "title": "Clearer app reminders and records",
+      "text": "The update explains the existing “Resend Kickstart form” button as a reminder to finish the app questionnaire. Lessons distinguish sessions done, booked and total, genuine past workout logs and flags that need checking.",
+      "lesson": "coach-app-log-workout",
+      "second_lesson": "selling-kickstart-to-ongoing"
+    },
+    {
+      "title": "Safer follow-through",
+      "text": "The lessons add a 48-hour program check, goals and agreed next steps in outcomes, missed-call follow-up, agreed parent or payer involvement, and a personal message before a confirmed Strategy Session.",
+      "lesson": "free-session-record-outcome"
+    },
+    {
+      "title": "Program recovery and progress checks",
+      "text": "The lessons show how to restore a saved program and reopen Training to check it. They clarify monthly repeats, both profiles in a shared booking, actual saved logs and an agreed measured baseline.",
+      "lesson": "coach-app-fix-problems",
+      "second_lesson": "retention-check-ins-and-progress"
+    },
+    {
+      "title": "Practice questions match the changes",
+      "text": "Quiz and practice wording now follows your price line, Kickstart plus Strategy, hard-set numbers, stay-with-the-client order and Ava message approval. Band deadlifts are a regression or a home or hotel option, not the default for an advanced client.",
+      "lesson": "coaching-programs"
+    }
+  ],
+  "already_right": [
+    {
+      "title": "Your training order",
+      "text": "Ava before app setup; four four-hour shifts, a course pass and your practical sign-off before coaching alone. Your four shift focus areas stay."
+    },
+    {
+      "title": "Selling and booking basics",
+      "text": "Book all three Kickstart sessions where possible before payment. Start the recap and offer at minute 22. Thinking time does not require a discount."
+    },
+    {
+      "title": "Program and check-in rhythm",
+      "text": "Three-week Kickstart programs; six weeks is the ongoing refresh default. Repeat bookings stay flexible. Check-ins happen during a rest or at the end."
+    },
+    {
+      "title": "Safety ownership",
+      "text": "Urgent matters are a call to you; call 000 first in an emergency. You approve return to exercise. Clinical facts stay on JF Notes with you tagged directly."
+    },
+    {
+      "title": "Support and money ownership",
+      "text": "Ava first for everyday help. You confirm spares, receive payment-change tasks, handle JF+ and Game Plans, and rehearse sales with trainers who need help. Trainers stay for forfeited slots."
+    },
+    {
+      "title": "The tools already in place",
+      "text": "The narrowed certificate rules and app upload, incident follow-up task, Friday session sign-off, manager lesson unlock and current-program default stay. Old tools stay retired."
+    }
+  ],
+  "open": [
+    {
+      "title": "The course and guide are not released yet",
+      "text": "The lesson updates and three new lessons are prepared. The combined guide still needs its final build, review and manager-only access checks. The Playbook remains manager-only; after final checks, access is planned for Ida and Marco only."
+    },
+    {
+      "title": "Finished videos need their final checks",
+      "text": "Changed-rule films and the three new lesson films still need final recording and listening checks. The client-app tour is also not ready. Two audio lines were repaired; the Ava Notes-card report still needs a real listen."
+    },
+    {
+      "title": "Ava’s updated guidance is not live yet",
+      "text": "The wording is prepared, but it still needs to be published and checked against what is actually open in the Playbook."
+    },
+    {
+      "title": "Some shift topics stay as your method",
+      "text": "The guide preserves all 23 discussion topics in your wording. It does not invent methods where your notes are brief. The proposed minute split still needs your review."
+    },
+    {
+      "title": "Some demo actions remain off limits",
+      "text": "Saving appointments, recording notes and sending messages are not all confirmed safe in the practice account. The checklist keeps those actions in course simulations or as drafts."
+    },
+    {
+      "title": "Printable sheets do not save progress",
+      "text": "The guide provides a reusable sheet to print for each trainer. The ticks, observations and signatures are not stored in a shared Playbook record."
+    },
+    {
+      "title": "Separate from this course update",
+      "text": "The free-session invitation email, rules for appointments exactly at the notice cut-off and payroll rules were not changed. App feature requests outside onboarding stay separate."
+    }
+  ],
+  "shift_topics": [
+    "Session-opening confidence checks and final training feedback",
+    "Why Sequay Works",
+    "Fixed 1:1 frequency by weekly hours",
+    "Meeting kit",
+    "Nutrition support ladder",
+    "Adding and editing goals and assigned habits",
+    "Check-in scheduling and full question set",
+    "Deeper check-in questions",
+    "Six-week Monday blocks, discussed without making them compulsory",
+    "Positive sandwich and comparing sets",
+    "Ways to change intensity",
+    "The older universal 8–12 rep guide, labelled as old",
+    "The Six Cs",
+    "Red Brain / Green Brain",
+    "Time, starting-date, longer-training and call-booking objection drills",
+    "Discounting and call booking, using the current consent rules",
+    "Cold versus hot leads and cold-call practice",
+    "DiSC",
+    "On Demand and Workouts Of The Day",
+    "Shared-session coaching and less familiar client types",
+    "Social media tips beyond consent",
+    "Conflict Management Hack",
+    "Full PT-tier comparison"
+  ],
+  "closing": "Thanks for working through it, Gab. Your wording and your training shifts are at the centre of this update.",
+  "playbook_url": "https://jamiefitness.au/trainer-dashboard/playbook/index.php",
+  "lesson_titles": {
+    "ava-admin": "Let Ava handle the admin",
+    "ava-prompts": "Prompts that work",
+    "coach-app-fix-problems": "Get a problem fixed",
+    "coach-app-log-workout": "Log a workout",
+    "coach-app-messages": "Reply with a clear next step",
+    "coaching-client-onboarding": "The first four weeks with a client",
+    "coaching-edit-existing-workout": "Edit an existing workout",
+    "coaching-programs": "Review, publish and check a program",
+    "coaching-teach-app": "Teach clients JF Coach",
+    "coaching-technique-demos": "Make technique click",
+    "free-session-offer-kickstart": "Offer the Kickstart",
+    "free-session-practice-sheet": "Practise the Kickstart script",
+    "free-session-record-outcome": "Record the outcome",
+    "retention-check-ins-and-progress": "Read check-ins and track progress",
+    "schedule-book-session": "Book the next session",
+    "schedule-reschedule": "Move it with agreement",
+    "selling-cost-and-thinking": "Cost and thinking time",
+    "selling-kickstart-to-ongoing": "From Kickstart to ongoing PT",
+    "setup-first-fortnight": "Your first fortnight",
+    "setup-kit-and-hours": "Get ready for bookings",
+    "setup-portal": "Make the Portal work",
+    "standards-safety-first": "Screen clients and handle incidents",
+    "welcome-welcome-in": "Welcome in",
+    "your-week-meetings": "Meetings and your 1:1s"
+  },
+  "other_fixes_intro": "These lesson and Ava wording changes are prepared for release. They are not all live yet."
+}
