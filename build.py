@@ -273,7 +273,7 @@ blockquote{margin:0;border-radius:14px;background:var(--tone-wash,var(--card));p
     <section class="section" id="changes" aria-labelledby="changes-title">
       <div class="section-heading">
         <h2 id="changes-title">From your sign-off</h2>
-        <p>The wording below is in the prepared course update. Each lesson link opens the Playbook after sign-in.</p>
+        <p>The wording below is now live in the course. Each lesson link opens the Playbook after sign-in.</p>
       </div>
       {groups}
     </section>
