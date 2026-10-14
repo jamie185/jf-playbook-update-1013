@@ -43,16 +43,16 @@ def answer_row(data, row):
     <h3>{esc(row['title'])}</h3>
     <div class="answer-pair">
       <div>
-        <p class="field-label">You said</p>
+        <p class="field-label">{esc(row.get('said_label', 'You said'))}</p>
         <p class="said">{esc(row['said'])}</p>
       </div>
       <div>
-        <p class="field-label">Course wording</p>
+        <p class="field-label">{esc(row.get('quote_label', 'Course wording'))}</p>
         <blockquote>{esc(row['quote'])}</blockquote>
       </div>
     </div>
     <p class="change-summary">{esc(row['changed'])}</p>
-    <p class="lesson-link">Find it in the lesson: {playbook_link(data, row['lesson'])}</p>
+    {('<p class="lesson-link">Find it in the lesson: ' + playbook_link(data, row['lesson']) + '</p>') if row.get('lesson') else ('<p class="lesson-link"><a class="text-link" href="' + esc(route_href(data, row['route'])) + '">' + esc(row.get('link_label', 'Open it')) + '</a></p>')}
   </div>
 </article>"""
 
@@ -98,7 +98,10 @@ def fix_card(data, item):
     links = [playbook_link(data, item["lesson"])] if item.get("lesson") else []
     if item.get("second_lesson"):
         links.append(playbook_link(data, item["second_lesson"]))
+    links += [playbook_link(data, extra) for extra in item.get("more_lessons", [])]
     link_markup = "<p class=\"lesson-link\">Find it in: " + " and ".join(links) + "</p>" if links else ""
+    if not links and item.get("route"):
+        link_markup = f'<p class="lesson-link"><a class="text-link" href="{esc(route_href(data, item["route"]))}">Open your Facilitator guide</a></p>'
     quote = f'<blockquote class="template-quote">{esc(item["quote"])}</blockquote>' if item.get("quote") else ""
     return f"""<article class="fix-card">
   <h3>{esc(item['title'])}</h3>
@@ -128,12 +131,13 @@ def render(data):
 
     referenced = set()
     for group in data.get("answer_groups", []):
-        referenced.update(row["lesson"] for row in group["rows"])
+        referenced.update(row["lesson"] for row in group["rows"] if row.get("lesson"))
     for item in data.get("new_tools", []) + data.get("fixes", []):
         if item.get("lesson"):
             referenced.add(item["lesson"])
         if item.get("second_lesson"):
             referenced.add(item["second_lesson"])
+        referenced.update(item.get("more_lessons", []))
     missing = referenced - set(data.get("lesson_titles", {}))
     if missing:
         raise ValueError("Missing lesson titles: " + ", ".join(sorted(missing)))
@@ -281,7 +285,7 @@ blockquote{margin:0;border-radius:14px;background:var(--tone-wash,var(--card));p
     <section class="section" id="new-for-you" aria-labelledby="tools-title">
       <div class="section-heading">
         <h2 id="tools-title">New for you</h2>
-        <p>These guide and video tools are part of the update and will be available after final checks.</p>
+        <p>These guide and video tools are live in the Playbook.</p>
       </div>
       <div class="tool-grid">{tools}</div>
     </section>
